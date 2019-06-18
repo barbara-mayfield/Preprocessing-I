@@ -53,14 +53,16 @@ table {
     box-sizing: border-box;
 }
 
-@bg1: lightgray;
+@bg1: #EBEEF7;
 @bg2: gray;
+@bg3: #E0E0E0;
 @lightText: white;
+@boxStyle1: 1px solid #E0E0E0;
 
 html, body {
-	height: 100%;
 	margin: 0 auto;
-	width: 80% - 20%;
+	width: 85% - 15%;
+	height: 100%;
 	font-size: 100%;
 
 	@media(max-width: 500px){
@@ -89,28 +91,28 @@ header {
 	section {
 		background-color: @bg1;
 		padding: 30px;
-	}
+		}
 
 	img {
 		width: 30%;
 		height: auto;
 		margin: 30px 45px 0px 10px;
-	}
+		}
 
 	h1 {
 		font-size: 2rem;
-	}
+		}
 
 	h3 {
 		font-size: 0.9rem;
 		margin: 5px 0px 20px 0px;
-	}
+		}
 
 	p {
 		line-height: 1.25;
 		border-top: 1px solid gray;
 		padding: 18px 0;
-	}
+		}
 
 	.team-button {
 		text-decoration: none;
@@ -118,6 +120,81 @@ header {
 		color: @lightText;
 		padding: 10px 24px;
 		border-radius: 2rem;
-	}
+		}
 
+}
+
+.mid-content {
+	display: flex;
+	flex-direction: row nowrap;
+	margin-top: 20px;
+
+	.txt-left {
+		width: 75%;
+		}
+
+	.txt-left h2 {
+		margin: 10px 10px 10px 0;
+		}
+
+	.txt-right {
+		margin: 10px;
+		}
+
+	.txt-right h2 {
+		margin: 0px 10px 10px 0;
+		}
+
+	.txt-right p {
+		border-top: @boxStyle1;
+		padding: 4px 0px 4px 0px;
+		margin: 10px;
+		align-content: center;
+		}
+
+	.txt-right p:last-child {
+		border-bottom: @boxStyle1;
+		}
+}
+
+	.work-history {
+		 h2 {
+			font-size: 2rem;
+			margin-bottom: 15px;
+		}
+	
+		table {
+			width: 100%;
+		}
+
+		tr {
+			border-top: @boxStyle1;
+		}
+
+		th {
+			padding: 12px;
+			text-align: left;
+		}
+
+		td {
+			padding: 10px;
+		}
+
+		.alt-td {
+			background-color: @bg1;
+		}
+
+		tr:last-child {
+			border-bottom: @boxStyle1;
+		}
+}
+
+	footer {
+		p {
+		margin-top: 60px;
+		text-align: center;
+		color: @lightText;
+		background-color: @bg2;
+		padding: 20px;
+}
 }
