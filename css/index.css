@@ -133,4 +133,44 @@ table {
 html,
 body {
   height: 100%;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 100%;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 500px) {
+  header {
+    justify-content: center;
+  }
+}
+.top-content section {
+  background-color: lightgray;
+  padding: 30px;
+}
+.top-content img {
+  width: 30%;
+  height: auto;
+  margin: 30px 45px 0px 10px;
+}
+.top-content h1 {
+  font-size: 2rem;
+}
+.top-content h3 {
+  font-size: 0.9rem;
+  margin: 5px 0px 20px 0px;
+}
+.top-content p {
+  line-height: 1.25;
+  border-top: 1px solid gray;
+  padding: 18px 0;
+}
+.top-content .team-button {
+  text-decoration: none;
+  background: gray;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 2rem;
 }
