@@ -207,6 +207,17 @@ header a:hover {
 .mid-content .txt-left h2 {
   margin: 10px 10px 10px 0;
 }
+.mid-content .txt-left h3 {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  font-style: italic;
+}
+.mid-content ul {
+  list-style-type: circle;
+}
+.mid-content li {
+  color: gray;
+}
 .mid-content .txt-right {
   margin: 10px;
 }
