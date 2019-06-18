@@ -62,15 +62,26 @@ html, body {
 	margin: 0 auto;
 	width: 80% - 20%;
 	font-size: 100%;
+
+	@media(max-width: 500px){
+		align-content: center;
+		width: 100%;
+		}
 }
+
+*, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  h1, h2, h3, h4, h5 {
+	font-size: 1.6rem;
+  }
 
 header {
 	display: flex;
+	flex-flow: row nowrap;
 	justify-content: flex-end;
 
-	@media(max-width: 500px){
-	justify-content: center;
-	}
 }
 
 .top-content {
@@ -108,4 +119,5 @@ header {
 		padding: 10px 24px;
 		border-radius: 2rem;
 	}
+
 }
