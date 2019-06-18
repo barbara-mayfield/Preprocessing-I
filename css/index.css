@@ -200,7 +200,6 @@ header a:hover {
 .mid-content {
   display: flex;
   flex-direction: row nowrap;
-  margin-top: 20px;
 }
 .mid-content .txt-left {
   width: 46%;
@@ -236,7 +235,7 @@ header a:hover {
 }
 .work-history h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin: 20px 0px 15px 0px;
 }
 .work-history table {
   width: 100%;
