@@ -161,6 +161,13 @@ header {
   flex-flow: row nowrap;
   justify-content: flex-end;
 }
+header a {
+  text-decoration: none;
+  color: #000000;
+}
+header a:hover {
+  color: #EBEEF7;
+}
 .top-content section {
   background-color: #EBEEF7;
   padding: 30px;
