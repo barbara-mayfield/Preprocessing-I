@@ -203,7 +203,7 @@ header a:hover {
   margin-top: 20px;
 }
 .mid-content .txt-left {
-  width: 75%;
+  width: 46%;
 }
 .mid-content .txt-left h2 {
   margin: 10px 10px 10px 0;
@@ -220,7 +220,7 @@ header a:hover {
   color: gray;
 }
 .mid-content .txt-right {
-  margin: 10px;
+  margin: 10px 0px 10px 20px;
 }
 .mid-content .txt-right h2 {
   margin: 0px 10px 10px 0;
@@ -251,7 +251,7 @@ header a:hover {
 .work-history td {
   padding: 10px;
 }
-.work-history .alt-td {
+.work-history .alt-tr {
   background-color: #EBEEF7;
 }
 .work-history tr:last-child {
