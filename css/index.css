@@ -137,14 +137,29 @@ body {
   width: 60%;
   font-size: 100%;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    align-content: center;
+    width: 100%;
+  }
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1.6rem;
+}
 header {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: flex-end;
-}
-@media (max-width: 500px) {
-  header {
-    justify-content: center;
-  }
 }
 .top-content section {
   background-color: lightgray;
