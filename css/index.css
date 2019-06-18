@@ -132,9 +132,9 @@ table {
 }
 html,
 body {
-  height: 100%;
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
+  height: 100%;
   font-size: 100%;
 }
 @media (max-width: 500px) {
@@ -162,7 +162,7 @@ header {
   justify-content: flex-end;
 }
 .top-content section {
-  background-color: lightgray;
+  background-color: #EBEEF7;
   padding: 30px;
 }
 .top-content img {
@@ -188,4 +188,60 @@ header {
   color: white;
   padding: 10px 24px;
   border-radius: 2rem;
+}
+.mid-content {
+  display: flex;
+  flex-direction: row nowrap;
+  margin-top: 20px;
+}
+.mid-content .txt-left {
+  width: 75%;
+}
+.mid-content .txt-left h2 {
+  margin: 10px 10px 10px 0;
+}
+.mid-content .txt-right {
+  margin: 10px;
+}
+.mid-content .txt-right h2 {
+  margin: 0px 10px 10px 0;
+}
+.mid-content .txt-right p {
+  border-top: 1px solid #E0E0E0;
+  padding: 4px 0px 4px 0px;
+  margin: 10px;
+  align-content: center;
+}
+.mid-content .txt-right p:last-child {
+  border-bottom: 1px solid #E0E0E0;
+}
+.work-history h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.work-history table {
+  width: 100%;
+}
+.work-history tr {
+  border-top: 1px solid #E0E0E0;
+}
+.work-history th {
+  padding: 12px;
+  text-align: left;
+}
+.work-history td {
+  padding: 10px;
+}
+.work-history .alt-td {
+  background-color: #EBEEF7;
+}
+.work-history tr:last-child {
+  border-bottom: 1px solid #E0E0E0;
+}
+footer p {
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  background-color: gray;
+  padding: 20px;
 }
