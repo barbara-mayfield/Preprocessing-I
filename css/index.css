@@ -156,6 +156,7 @@ h3,
 h4,
 h5 {
   font-size: 1.6rem;
+  text-shadow: 1px 1px 1px gray;
 }
 header {
   display: flex;
@@ -196,6 +197,10 @@ header a:hover {
   color: white;
   padding: 10px 24px;
   border-radius: 2rem;
+}
+.top-content .team-button:hover {
+  background: #E0E0E0;
+  color: #EBEEF7;
 }
 .mid-content {
   display: flex;
