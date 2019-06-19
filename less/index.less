@@ -65,86 +65,88 @@ html, body {
 	height: 100%;
 	font-size: 100%;
 	font-family: 'Work Sans', sans-serif;
-
+	
 	@media(max-width: 500px){
 		align-content: center;
 		width: 100%;
-		}
+	}
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
-  }
-  
-  h1, h2, h3, h4, h5 {
+}
+
+h1, h2, h3, h4, h5 {
 	font-size: 1.6rem;
 	text-shadow: 1px 1px 1px @bg2;
-  }
+}
 
 header {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
-
+	
 	a {
 		text-decoration: none;
 		color: #000000;
 	}
-
+	
 	a:hover {
 		color: @bg1;
 	}
 }
 
 .top-content {
-
+	
 	section {
 		background-color: @bg1;
 		padding: 30px;
-		}
-
+	}
+	
 	img {
 		width: 46%;
 		height: auto;
 		margin: 30px 45px 0px 10px;
-		}
-
+	}
+	
 	h1 {
 		font-size: 2rem;
-		}
-
+	}
+	
 	h3 {
 		font-size: 0.9rem;
 		margin: 5px 0px 20px 0px;
-		}
-
+	}
+	
 	p {
 		line-height: 1.25;
 		border-top: 1px solid gray;
 		padding: 18px 0;
-		}
-
+	}
+	
 	.team-button {
 		text-decoration: none;
 		background: @bg2;
 		color: @lightText;
 		padding: 10px 24px;
 		border-radius: 2rem;
-		}
-
+	}
+	
 	.team-button:hover{
 		background: @bg3;
 		color: @bg1;
 	}
-
+	
 }
 
 .mid-content {
 	display: flex;
 	flex-direction: row nowrap;
-
+	background: linear-gradient(@bg1, @bg3);
+	
 	.txt-left {
 		width: 46%;
+		margin: 0px 25px 25px 40px;
 		}
 
 	.txt-left h2 {

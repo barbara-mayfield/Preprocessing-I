@@ -205,9 +205,11 @@ header a:hover {
 .mid-content {
   display: flex;
   flex-direction: row nowrap;
+  background: linear-gradient(#EBEEF7, #E0E0E0);
 }
 .mid-content .txt-left {
   width: 46%;
+  margin: 0px 25px 25px 40px;
 }
 .mid-content .txt-left h2 {
   margin: 10px 10px 10px 0;
